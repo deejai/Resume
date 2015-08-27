@@ -7,7 +7,7 @@
 *************************************/
 
 #contact-info{
-    margin: 38px 0 0 0;
+    margin: 30px 0 0 0;
 }
 
 #contact-info li{
@@ -18,7 +18,7 @@
 }
 
 #name{
-    margin: 25px 0px 15px 25px;
+    margin: 19px 0px 15px 25px;
 }
 
 .floatleft{
@@ -32,7 +32,7 @@
 #header{
     overflow: hidden;
     border-bottom: solid black 2px;
-    margin: 20px;
+    margin: 18px 20px 6px;
 }
 
 /*************************************
@@ -79,7 +79,7 @@
     padding-left: 30px;
 }
 
-.section .item{
+.item{
     margin: 14px 0 15px 20px;
 }
 
@@ -87,10 +87,15 @@
     width: 90%;
 }
 
+#references h2{
+    margin-bottom: 14px;
+}
+
 #references .item{
     clear: both;
     overflow: hidden;
-    margin-bottom: -5px;
+    margin-top: 1px;
+    margin-bottom: 0;
 }
 
 .ref-col-a{
@@ -107,16 +112,16 @@
 }
 
 /*************************************
-        A4 Formatting
+        Letter Formatting
 *************************************/
 
 body {
   background: rgb(204,204,204); 
 }
-page[size="A4"] {
+page[size="Letter"] {
   background: white;
-  width: 21cm;
-  height: 29.7cm;
+  width: 8.5in;
+  height: 11in;
   display: block;
   margin: 0 auto;
   margin-bottom: 0.5cm;
@@ -124,7 +129,7 @@ page[size="A4"] {
 }
 
 @media print {
-  body, page[size="A4"] {
+  body, page[size="Letter"] {
     margin: 0;
     box-shadow: 0;
   }
