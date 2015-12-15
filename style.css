@@ -35,13 +35,21 @@
     margin: 18px 20px 6px;
 }
 
+#git-resume{
+    padding: 0;
+    margin: 0 0 5px 38px;
+    font-size: 13px;
+    font-style: italic;
+    text-align: left;
+}
+
 /*************************************
         Info Block Formatting
 *************************************/
 
 .column{
     padding: 0;
-    margin: 10px 0 0 0;
+    margin: 0;
     float: left;
     width: 50%;
 }
@@ -50,7 +58,7 @@
     font-size: 13px;
     float: left;
     padding: 0;
-    margin: 10px 30px 0 30px;
+    margin: 8px 30px 0 30px;
 }
 
 .right .section{
