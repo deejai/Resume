@@ -26,7 +26,7 @@
 }
 
 .floatright{
-    float: right;
+    float: left;
 }
 
 #header{
@@ -73,6 +73,10 @@
 
 .section p{
     font-style: italic;
+}
+
+#projects p{
+    font-size: 14px;
 }
 
 .section ul{
